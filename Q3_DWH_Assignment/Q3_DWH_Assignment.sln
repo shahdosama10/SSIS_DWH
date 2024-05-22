@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Q3_DWH_Assignment", "Q3_DWH_Assignment\Q3_DWH_Assignment.dtproj", "{E6960091-FFD0-4E29-A526-580B0BCE27E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6960091-FFD0-4E29-A526-580B0BCE27E2}.Development|Default.ActiveCfg = Development
+		{E6960091-FFD0-4E29-A526-580B0BCE27E2}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8122A2ED-0616-4963-95B6-391C56E06BCE}
+	EndGlobalSection
+EndGlobal
