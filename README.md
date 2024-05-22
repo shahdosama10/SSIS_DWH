@@ -11,5 +11,6 @@ This SSIS assignment involves solving four different tasks using Microsoft SQL S
 ## Task 4: Transform Attendance Device Data
 
 ## Contributors
-Shahd Osama - [your email](https://github.com/shahdosama10)
-Maryam Osama - [your email](https://github.com/maryamosama33)
+ [Shahd Osama](https://github.com/shahdosama10)
+
+[Maryam Osama](https://github.com/maryamosama33)
