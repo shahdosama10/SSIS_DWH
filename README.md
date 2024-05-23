@@ -5,6 +5,7 @@ This SSIS assignment involves solving four different tasks using Microsoft SQL S
 ## Task 1: Consume REST API and Load to Database
 
 **Problem:** Load selected fields from a REST API response into a database table.
+
 **Steps:**
 Create a database table named University with columns: name, country, alpha_two_code, and ..etc
 Fetch data from the REST API and map selected fields to the corresponding columns in the University table using C# script.
@@ -12,6 +13,7 @@ Fetch data from the REST API and map selected fields to the corresponding column
 ## Task 2: Implement SCD Type 4
 
 **Problem:** Implement Slowly Changing Dimension (SCD) Type 4 for a source table.
+
 **Steps:**
 
 1- "GET LAST EXTRACT DATE" : here we select max "From_Date" from table "Employee_Q2_History_Target2" to use Incremental Load
@@ -51,7 +53,9 @@ Fetch data from the REST API and map selected fields to the corresponding column
 ## Task 3: Load Source Data with Versioning
 
 **Problem:** Load source data into a target table with versioning.
+
 **Solution Approach:** Implement versioning logic using SSIS for loading data from Employee_Q3 into the target table.
+
 **Steps:**
 --------------- **in the "Data Flow Task" in details** ------------------
 
@@ -86,7 +90,9 @@ Fetch data from the REST API and map selected fields to the corresponding column
 ## Task 4: Transform Attendance Device Data
 
 **Problem:** Read data from an attendance device and transform it into a target table with a descriptive state for each record.
+
 **Solution Approach:** Use SSIS to process data from the Attendance_Device source table and transform it into the Employee_Attendance_Details target table.
+
 **Steps:**
 
 1- "GET LAST EXTRACT DATE" : here we select max "Date" from table "Employee_Attendence_Details_Target" to use Incremental Load
